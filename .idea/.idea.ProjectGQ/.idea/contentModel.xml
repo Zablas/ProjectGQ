@@ -49460,6 +49460,8 @@
         <e p="ProjectGQ" t="Include">
           <e p="CustomPlayerController.cpp" t="Include" />
           <e p="CustomPlayerController.h" t="Include" />
+          <e p="Pickup.cpp" t="Include" />
+          <e p="Pickup.h" t="Include" />
           <e p="ProjectGQ.Build.cs" t="Include" />
           <e p="ProjectGQ.cpp" t="Include" />
           <e p="ProjectGQ.h" t="Include" />
