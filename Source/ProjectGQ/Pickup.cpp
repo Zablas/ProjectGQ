@@ -54,9 +54,12 @@ void APickup::BeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 	int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	AProjectGQCharacter* character = Cast<AProjectGQCharacter>(OtherActor);
-	if(character)
+	if (character)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Player touched me"));
+
+		character->AddHealth(10.f);
+		Destroy();
 	}
 }
 

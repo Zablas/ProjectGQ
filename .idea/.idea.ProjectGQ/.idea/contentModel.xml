@@ -12567,69 +12567,6 @@
         </e>
       </e>
     </e>
-    <e p="C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\Marketplace\NinjaCharacter" t="Include">
-      <e p="NinjaCharacter.uplugin" t="Include" />
-      <e p="Resources" t="Include">
-        <e p="Icon128.png" t="Include" />
-      </e>
-      <e p="Source" t="Include">
-        <e p="NinjaCharacter" t="Include">
-          <e p="NinjaCharacter.Build.cs" t="Include" />
-          <e p="Private" t="Include">
-            <e p="NinjaCharacter.cpp" t="Include" />
-            <e p="NinjaCharacterMovementComponent.cpp" t="Include" />
-            <e p="NinjaCharacterPlugin.cpp" t="Include" />
-            <e p="NinjaPhysicsVolume.cpp" t="Include" />
-            <e p="NinjaPhysicsVolumeSpline.cpp" t="Include" />
-            <e p="NinjaPlayerCameraManager.cpp" t="Include" />
-            <e p="NinjaProjectileMovementComponent.cpp" t="Include" />
-          </e>
-          <e p="Public" t="Include">
-            <e p="NinjaCharacter.h" t="Include" />
-            <e p="NinjaCharacterMovementComponent.h" t="Include" />
-            <e p="NinjaCharacterPlugin.h" t="Include" />
-            <e p="NinjaMath.h" t="Include" />
-            <e p="NinjaPhysicsVolume.h" t="Include" />
-            <e p="NinjaPhysicsVolumeSpline.h" t="Include" />
-            <e p="NinjaPlayerCameraManager.h" t="Include" />
-            <e p="NinjaProjectileMovementComponent.h" t="Include" />
-            <e p="NinjaTypes.h" t="Include" />
-          </e>
-        </e>
-      </e>
-    </e>
-    <e p="C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\Marketplace\PTMTool" t="Include">
-      <e p="PTMTool.uplugin" t="Include" />
-      <e p="Resources" t="Include">
-        <e p="Icon128.png" t="Include" />
-      </e>
-      <e p="Source" t="Include">
-        <e p="Editor" t="Include">
-          <e p="Classes" t="Include">
-            <e p="FTM_ListButton.h" t="Include" />
-            <e p="FTM_MainWidget.h" t="Include" />
-            <e p="PTM_ListButton.h" t="Include" />
-            <e p="PTM_MainWidget.h" t="Include" />
-          </e>
-          <e p="Private" t="Include">
-            <e p="FTM_ListButton.cpp" t="Include" />
-            <e p="FTM_MainWidget.cpp" t="Include" />
-            <e p="IPTMTool.cpp" t="Include" />
-            <e p="PTM_ListButton.cpp" t="Include" />
-            <e p="PTM_MainWidget.cpp" t="Include" />
-            <e p="PTMTool.cpp" t="Include" />
-            <e p="PTMTool_Style.cpp" t="Include" />
-          </e>
-          <e p="PTMTool.Build.cs" t="Include" />
-          <e p="Public" t="Include">
-            <e p="IPTMTool.h" t="Include" />
-            <e p="PTMTool.h" t="Include" />
-            <e p="PTMTool_Shared.h" t="Include" />
-            <e p="PTMTool_Style.h" t="Include" />
-          </e>
-        </e>
-      </e>
-    </e>
     <e p="C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\Media\AjaMedia" t="Include">
       <e p="AjaMedia.uplugin" t="Include" />
       <e p="Config" t="Include">
@@ -14257,76 +14194,6 @@
         </e>
       </e>
       <e p="WmfMedia.uplugin" t="Include" />
-    </e>
-    <e p="C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\MegascansPlugin" t="Include">
-      <e p="MegascansPlugin.uplugin" t="Include" />
-      <e p="Resources" t="Include">
-        <e p="Icon128.png" t="Include" />
-        <e p="Icon40x40.png" t="Include" />
-        <e p="Logo32x32.png" t="Include" />
-        <e p="Logo80x80.png" t="Include" />
-      </e>
-      <e p="Source" t="Include">
-        <e p="MegascansPlugin" t="Include">
-          <e p="MegascansPlugin.Build.cs" t="Include" />
-          <e p="Private" t="Include">
-            <e p="AssetImportData.cpp" t="Include" />
-            <e p="AssetImportData.h" t="Include" />
-            <e p="AssetImportDataHandler.cpp" t="Include" />
-            <e p="AssetImportDataHandler.h" t="Include" />
-            <e p="AssetImporters" t="Include">
-              <e p="Import3D.cpp" t="Include" />
-              <e p="Import3D.h" t="Include" />
-              <e p="Import3DPlant.cpp" t="Include" />
-              <e p="Import3DPlant.h" t="Include" />
-              <e p="ImportFactory.cpp" t="Include" />
-              <e p="ImportFactory.h" t="Include" />
-              <e p="ImportSurface.cpp" t="Include" />
-              <e p="ImportSurface.h" t="Include" />
-            </e>
-            <e p="AssetsImportController.cpp" t="Include" />
-            <e p="AssetsImportController.h" t="Include" />
-            <e p="MegascansLiveLinkModule.cpp" t="Include" />
-            <e p="MSPythonBridge.cpp" t="Include" />
-            <e p="MSPythonBridge.h" t="Include" />
-            <e p="TCPServerImp.cpp" t="Include" />
-            <e p="TCPServerImp.h" t="Include" />
-            <e p="Tools" t="Include">
-              <e p="BlendMaterials.cpp" t="Include" />
-              <e p="BlendMaterials.h" t="Include" />
-            </e>
-            <e p="UI" t="Include">
-              <e p="MaterialBlendingDetails.cpp" t="Include" />
-              <e p="MaterialBlendingDetails.h" t="Include" />
-              <e p="MSSettings.cpp" t="Include" />
-              <e p="MSSettings.h" t="Include" />
-              <e p="MSStyle.cpp" t="Include" />
-              <e p="MSStyle.h" t="Include" />
-              <e p="QMSUIManager.cpp" t="Include" />
-              <e p="QMSUIManager.h" t="Include" />
-              <e p="SMSWindow.cpp" t="Include" />
-              <e p="SMSWindow.h" t="Include" />
-            </e>
-            <e p="Utilities" t="Include">
-              <e p="Analytics.cpp" t="Include" />
-              <e p="Analytics.h" t="Include" />
-              <e p="AssetData.cpp" t="Include" />
-              <e p="AssetData.h" t="Include" />
-              <e p="AssetsDatabase.cpp" t="Include" />
-              <e p="AssetsDatabase.h" t="Include" />
-              <e p="MaterialUtils.cpp" t="Include" />
-              <e p="MaterialUtils.h" t="Include" />
-              <e p="MeshOp.cpp" t="Include" />
-              <e p="MeshOp.h" t="Include" />
-              <e p="MiscUtils.cpp" t="Include" />
-              <e p="MiscUtils.h" t="Include" />
-            </e>
-          </e>
-          <e p="Public" t="Include">
-            <e p="IMegascansLiveLinkModule.h" t="Include" />
-          </e>
-        </e>
-      </e>
     </e>
     <e p="C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\MeshPainting" t="Include">
       <e p="MeshPainting.uplugin" t="Include" />
@@ -49434,9 +49301,9 @@
       <e p="UE4Editor.Target.cs" t="Include" />
       <e p="UE4Game.Target.cs" t="Include" />
     </e>
-    <e p="C:\Users\vagab\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\vagab\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_ProjectGQ.-2105883384.00" t="ExcludeRecursive" />
-    <e p="C:\Users\vagab\Documents\Unreal Projects\ProjectGQ Git\ProjectGQ" t="IncludeFlat">
+    <e p="C:\Users\Lukas\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Lukas\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_ProjectGQ.984541724.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Lukas\dev\ProjectGQ" t="IncludeFlat">
       <e p=".gitignore" t="Include" />
       <e p="Config" t="Include">
         <e p="DefaultEditor.ini" t="Include" />
