@@ -18,8 +18,8 @@ APickup::APickup()
 	CollisionBox = CreateDefaultSubobject<UBoxComponent>("CollisionZone");
 
 	SetRootComponent(CustomRoot);
-	CustomMesh->AttachToComponent(GetRootComponent(), FAttachmentTransformRules::KeepWorldTransform);
-	CollisionBox->AttachToComponent(GetRootComponent(), FAttachmentTransformRules::KeepWorldTransform);
+	CustomMesh->SetupAttachment(GetRootComponent());
+	CollisionBox->SetupAttachment(GetRootComponent());
 
 	CollisionBox->SetCollisionObjectType(ECC_WorldDynamic);
 	CollisionBox->SetCollisionResponseToChannel(ECC_WorldDynamic, ECR_Overlap);
