@@ -114,11 +114,28 @@ protected:
 	virtual void SetupPlayerInputComponent(UInputComponent* InputComponent) override;
 	// End of APawn interface
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	float Health;
+
+public:
+	float GetHealth() const { return Health; }
+
+	void SetHealth(float health) { this->Health = health; }
+
+	float GetMaxHealth() const { return MaxHealth; }
+
+	void SetMaxHealth(float maxHealth) { this->MaxHealth = maxHealth; }
+
+protected:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	float MaxHealth;
+
 public:
 	/** Returns Mesh1P subobject **/
 	USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }
 	/** Returns FirstPersonCameraComponent subobject **/
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 
+	void AddHealth(float health);
 };
 

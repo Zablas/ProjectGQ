@@ -23,6 +23,9 @@ AProjectGQCharacter::AProjectGQCharacter()
 	BaseTurnRate = 45.f;
 	BaseLookUpRate = 45.f;
 
+	MaxHealth = 100.f;
+	Health = 70.f;	
+
 	// Create a CameraComponent	
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
 	FirstPersonCameraComponent->SetupAttachment(GetCapsuleComponent());
@@ -98,6 +101,17 @@ void AProjectGQCharacter::SetupPlayerInputComponent(class UInputComponent* Playe
 {
 	// set up gameplay key bindings
 	check(PlayerInputComponent);
+}
+
+void AProjectGQCharacter::AddHealth(float health)
+{
+	if (Health + health > MaxHealth)
+	{
+		Health = MaxHealth;
+		return;
+	}
+	
+	Health += health;
 }
 
 void AProjectGQCharacter::OnFire()
@@ -182,3 +196,4 @@ void AProjectGQCharacter::CustomAddControllerPitchInput(float Val)
 {
 	APawn::AddControllerPitchInput(Val);
 }
+

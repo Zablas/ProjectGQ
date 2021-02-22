@@ -18,8 +18,8 @@ APickup::APickup()
 	CollisionBox = CreateDefaultSubobject<UBoxComponent>("CollisionZone");
 
 	SetRootComponent(CustomRoot);
-	CustomMesh->AttachToComponent(GetRootComponent(), FAttachmentTransformRules::KeepWorldTransform);
-	CollisionBox->AttachToComponent(GetRootComponent(), FAttachmentTransformRules::KeepWorldTransform);
+	CustomMesh->SetupAttachment(GetRootComponent());
+	CollisionBox->SetupAttachment(GetRootComponent());
 
 	CollisionBox->SetCollisionObjectType(ECC_WorldDynamic);
 	CollisionBox->SetCollisionResponseToChannel(ECC_WorldDynamic, ECR_Overlap);
@@ -54,9 +54,12 @@ void APickup::BeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 	int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	AProjectGQCharacter* character = Cast<AProjectGQCharacter>(OtherActor);
-	if(character)
+	if (character)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Player touched me"));
+
+		character->AddHealth(10.f);
+		Destroy();
 	}
 }
 

@@ -6,10 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0314b413-b164-4671-98d7-f76a2cf5399a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/BP_Pickup.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/riderModule.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,17 +17,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/InputCore/Classes/InputCoreTypes.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Core/Private/Math/UnrealMath.cpp" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Source/ProjectGQ/CustomPlayerController.h" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/CustomPlayerController.cpp" />
-      <option value="$PROJECT_DIR$/Source/ProjectGQ/ProjectGQCharacter.cpp" />
-      <option value="$PROJECT_DIR$/Source/ProjectGQ/ProjectGQCharacter.h" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/Pickup.h" />
+      <option value="$PROJECT_DIR$/Source/ProjectGQ/ProjectGQCharacter.h" />
+      <option value="$PROJECT_DIR$/Source/ProjectGQ/ProjectGQCharacter.cpp" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/Pickup.cpp" />
     </changedPaths>
   </component>
@@ -46,6 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -274,6 +269,8 @@
       <workItem from="1612609031329" duration="323000" />
       <workItem from="1613754661597" duration="5532000" />
       <workItem from="1613761134838" duration="2751000" />
+      <workItem from="1613924597034" duration="2613000" />
+      <workItem from="1614008627882" duration="317000" />
     </task>
     <servers />
   </component>
