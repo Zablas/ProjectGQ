@@ -13,9 +13,9 @@ APickup::APickup()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	CustomRoot = CreateDefaultSubobject<USceneComponent>("CustomRoot");
-	CustomMesh = CreateDefaultSubobject<UStaticMeshComponent>("PickupMesh");
-	CollisionBox = CreateDefaultSubobject<UBoxComponent>("CollisionZone");
+	CustomRoot = CreateDefaultSubobject<USceneComponent>(TEXT("CustomRoot"));
+	CustomMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PickupMesh"));
+	CollisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("CollisionZone"));
 
 	SetRootComponent(CustomRoot);
 	CustomMesh->SetupAttachment(GetRootComponent());

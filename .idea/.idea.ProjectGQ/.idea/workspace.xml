@@ -6,8 +6,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0314b413-b164-4671-98d7-f76a2cf5399a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/Walls.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/SM_MERGED_Plane_9.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/SM_MERGED_SM_MERGED_Plane_5.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectGQ/Pickup.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGQ/Pickup.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +275,13 @@
       <workItem from="1613754661597" duration="5532000" />
       <workItem from="1613761134838" duration="2751000" />
       <workItem from="1613924597034" duration="2613000" />
-      <workItem from="1614008627882" duration="317000" />
+      <workItem from="1614008627882" duration="1005000" />
+      <workItem from="1614009946571" duration="659000" />
+      <workItem from="1614017485957" duration="114000" />
+      <workItem from="1614017676006" duration="297000" />
+      <workItem from="1614509318939" duration="1076000" />
+      <workItem from="1614547489597" duration="70000" />
+      <workItem from="1614597463662" duration="1209000" />
     </task>
     <servers />
   </component>
