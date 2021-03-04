@@ -6,8 +6,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0314b413-b164-4671-98d7-f76a2cf5399a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Animations/ThirdPersonIdle.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Animations/ThirdPersonRun.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Animations/ThirdPersonWalk.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Animations/ThirdPerson_Jump.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Character/Materials/M_UE4Man_Body.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Character/Textures/UE4Man_Logo_N.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/NinjaCharacter/Blueprints/NinjaPlayerCharacter_BP.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectGQ.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectGQ.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectGQ/Pickup.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGQ/Pickup.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,6 +303,9 @@
       <workItem from="1613761134838" duration="2751000" />
       <workItem from="1613924597034" duration="2613000" />
       <workItem from="1614008627882" duration="317000" />
+      <workItem from="1614881269646" duration="871000" />
+      <workItem from="1614882661626" duration="271000" />
+      <workItem from="1614883041627" duration="841000" />
     </task>
     <servers />
   </component>
