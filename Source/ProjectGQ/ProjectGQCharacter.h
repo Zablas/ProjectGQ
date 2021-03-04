@@ -52,7 +52,7 @@ class AProjectGQCharacter : public ACharacter
 	UMotionControllerComponent* L_MotionController;
 
 public:
-	AProjectGQCharacter();
+	AProjectGQCharacter(const FObjectInitializer& ObjectInitializer);
 
 protected:
 	virtual void BeginPlay();
