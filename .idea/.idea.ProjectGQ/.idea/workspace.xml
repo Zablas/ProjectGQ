@@ -6,25 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0314b413-b164-4671-98d7-f76a2cf5399a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/BP_CustomPlayerController.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DemoRoom/Materials/M_DemoWall.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DemoRoom/Materials/M_DemoWall_Inst.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DemoRoom/Materials/M_DemoWall_Inst2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DemoRoom/Materials/M_DemoWall_Inst_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DemoRoom/Materials/M_DemoWall_Inst_BaseFloor_Inst.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DemoRoom/Materials/M_DemoWall_Inst_NamePlate.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/DemoRoom/Meshes/SM_Base.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ExampleContent/Audio/Physical_Materials/Metal.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ExampleContent/Audio/Physical_Materials/Rubber.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/ProjectGQ/WallMovementComponent.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/ProjectGQ/WallMovementComponent.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_ProjectGQGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_ProjectGQGameMode.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_CustomPlayerController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_CustomPlayerController.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/NinjaCharacter/Blueprints/NinjaPlayerCharacter_BP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/NinjaCharacter/Blueprints/NinjaPlayerCharacter_BP.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectGQ.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectGQ.uproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGQ/ProjectGQCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGQ/ProjectGQCharacter.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ProjectGQ/ProjectGQCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGQ/ProjectGQCharacter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -295,7 +279,7 @@
       <workItem from="1614008627882" duration="317000" />
       <workItem from="1614881269646" duration="871000" />
       <workItem from="1614882661626" duration="271000" />
-      <workItem from="1614883041627" duration="2822000" />
+      <workItem from="1614883041627" duration="3767000" />
     </task>
     <servers />
   </component>

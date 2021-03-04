@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "WallWalkerCharacter.h"
 #include "ProjectGQCharacter.generated.h"
 
 class UInputComponent;
@@ -15,7 +16,7 @@ class UAnimMontage;
 class USoundBase;
 
 UCLASS(config=Game)
-class AProjectGQCharacter : public ACharacter
+class AProjectGQCharacter : public AWallWalkerCharacter
 {
 	GENERATED_BODY()
 
