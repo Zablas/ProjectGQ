@@ -113,7 +113,6 @@ void AProjectGQCharacter::AddHealth(float health)
 		Health = MaxHealth;
 		return;
 	}
-	
 	Health += health;
 }
 

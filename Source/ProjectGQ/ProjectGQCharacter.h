@@ -16,7 +16,7 @@ class UAnimMontage;
 class USoundBase;
 
 UCLASS(config=Game)
-class AProjectGQCharacter : public AWallWalkerCharacter
+class AProjectGQCharacter : public ACharacter
 {
 	GENERATED_BODY()
 

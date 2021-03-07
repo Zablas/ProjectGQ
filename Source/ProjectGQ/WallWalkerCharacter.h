@@ -13,5 +13,15 @@ UCLASS()
 class PROJECTGQ_API AWallWalkerCharacter : public ANinjaCharacter
 {
 	GENERATED_BODY()
-	
+
+public:
+	AWallWalkerCharacter(const FObjectInitializer& ObjectInitializer);
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	float Health;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	float MaxHealth;
+
+	void AddHealth(float health);
 };

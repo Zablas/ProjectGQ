@@ -6,9 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0314b413-b164-4671-98d7-f76a2cf5399a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/BP_NinjaPlayerCharacter.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_ProjectGQGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_ProjectGQGameMode.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/NinjaCharacter/Blueprints/BP_NinjaPlayerCharacter.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectGQ/Pickup.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGQ/Pickup.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ProjectGQ/ProjectGQCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGQ/ProjectGQCharacter.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ProjectGQ/ProjectGQCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGQ/ProjectGQCharacter.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.cpp" afterDir="false" />
@@ -31,11 +33,11 @@
       <option value="$PROJECT_DIR$/Source/ProjectGQ/CustomPlayerController.h" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/CustomPlayerController.cpp" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/Pickup.h" />
-      <option value="$PROJECT_DIR$/Source/ProjectGQ/Pickup.cpp" />
-      <option value="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.h" />
-      <option value="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.cpp" />
-      <option value="$PROJECT_DIR$/Source/ProjectGQ/ProjectGQCharacter.h" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/ProjectGQCharacter.cpp" />
+      <option value="$PROJECT_DIR$/Source/ProjectGQ/ProjectGQCharacter.h" />
+      <option value="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.h" />
+      <option value="$PROJECT_DIR$/Source/ProjectGQ/Pickup.cpp" />
+      <option value="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1o6ZSvQaS00kYKYvuekHJiZcvaL" />
@@ -287,6 +289,7 @@
       <workItem from="1614883041627" duration="6665000" />
       <workItem from="1614899728042" duration="3872000" />
       <workItem from="1614968969614" duration="4735000" />
+      <workItem from="1615149741389" duration="770000" />
     </task>
     <servers />
   </component>
