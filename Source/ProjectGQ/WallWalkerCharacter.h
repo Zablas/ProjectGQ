@@ -13,7 +13,7 @@ UCLASS()
 class PROJECTGQ_API AWallWalkerCharacter : public ANinjaCharacter
 {
 	GENERATED_BODY()
-
+	
 public:
 	AWallWalkerCharacter(const FObjectInitializer& ObjectInitializer);
 
@@ -24,4 +24,12 @@ public:
 	float MaxHealth;
 
 	void AddHealth(float health);
+
+	// Movement functions
+	void MoveForward(float Val);
+	void MoveRight(float Val);
+	void CustomJump();
+	void CustomStopJumping();
+	void CustomAddControllerYawInput(float Val);
+	void CustomAddControllerPitchInput(float Val);
 };
