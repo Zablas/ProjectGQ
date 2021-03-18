@@ -4,7 +4,7 @@
 #include "CustomPlayerController.h"
 #include "GameFramework/Pawn.h"
 #include "GameFramework/Character.h"
-#include "ProjectGQCharacter.h"
+#include "WallWalkerCharacter.h"
 
 void ACustomPlayerController::SetupInputComponent()
 {
@@ -26,8 +26,8 @@ void ACustomPlayerController::OnFire()
 	APawn* pawn = GetPawn();
 	if(pawn)
 	{
-		AProjectGQCharacter* character = Cast<AProjectGQCharacter>(pawn);
-		if(character) character->OnFire();
+		AWallWalkerCharacter* character = Cast<AWallWalkerCharacter>(pawn);
+		//if(character) character->OnFire();
 	}
 }
 
@@ -36,7 +36,7 @@ void ACustomPlayerController::MoveRight(float Val)
 	APawn* pawn = GetPawn();
 	if(pawn)
 	{
-		AProjectGQCharacter* character = Cast<AProjectGQCharacter>(pawn);
+		AWallWalkerCharacter* character = Cast<AWallWalkerCharacter>(pawn);
 		if(character) character->MoveRight(Val);
 	}
 }
@@ -46,8 +46,8 @@ void ACustomPlayerController::TurnAtRate(float Rate)
 	APawn* pawn = GetPawn();
 	if(pawn)
 	{
-		AProjectGQCharacter* character = Cast<AProjectGQCharacter>(pawn);
-		if(character) character->TurnAtRate(Rate);
+		AWallWalkerCharacter* character = Cast<AWallWalkerCharacter>(pawn);
+		//if(character) character->TurnAtRate(Rate);
 	}
 }
 
@@ -56,7 +56,7 @@ void ACustomPlayerController::Jump()
 	APawn* pawn = GetPawn();
 	if(pawn)
 	{
-		AProjectGQCharacter* character = Cast<AProjectGQCharacter>(pawn);
+		AWallWalkerCharacter* character = Cast<AWallWalkerCharacter>(pawn);
 		if(character) character->Jump();
 	}
 }
@@ -66,7 +66,7 @@ void ACustomPlayerController::StopJumping()
 	APawn* pawn = GetPawn();
 	if(pawn)
 	{
-		AProjectGQCharacter* character = Cast<AProjectGQCharacter>(pawn);
+		AWallWalkerCharacter* character = Cast<AWallWalkerCharacter>(pawn);
 		if(character) character->StopJumping();
 	}
 }
@@ -76,7 +76,7 @@ void ACustomPlayerController::AddControllerYawInput(float Val)
 	APawn* pawn = GetPawn();
 	if(pawn)
 	{
-		AProjectGQCharacter* character = Cast<AProjectGQCharacter>(pawn);
+		AWallWalkerCharacter* character = Cast<AWallWalkerCharacter>(pawn);
 		if(character) character->CustomAddControllerYawInput(Val);
 	}
 }
@@ -86,7 +86,7 @@ void ACustomPlayerController::AddControllerPitchInput(float Val)
 	APawn* pawn = GetPawn();
 	if(pawn)
 	{
-		AProjectGQCharacter* character = Cast<AProjectGQCharacter>(pawn);
+		AWallWalkerCharacter* character = Cast<AWallWalkerCharacter>(pawn);
 		if(character) character->CustomAddControllerPitchInput(Val);
 	}
 }
@@ -96,7 +96,7 @@ void ACustomPlayerController::MoveForward(float Val)
 	APawn* pawn = GetPawn();
 	if(pawn)
 	{
-		AProjectGQCharacter* character = Cast<AProjectGQCharacter>(pawn);
+		AWallWalkerCharacter* character = Cast<AWallWalkerCharacter>(pawn);
 		if(character) character->MoveForward(Val);
 	}
 }

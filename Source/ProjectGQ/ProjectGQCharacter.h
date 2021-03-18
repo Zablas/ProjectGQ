@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "WallWalkerCharacter.h"
 #include "ProjectGQCharacter.generated.h"
 
 class UInputComponent;
@@ -52,7 +53,7 @@ class AProjectGQCharacter : public ACharacter
 	UMotionControllerComponent* L_MotionController;
 
 public:
-	AProjectGQCharacter();
+	AProjectGQCharacter(const FObjectInitializer& ObjectInitializer);
 
 protected:
 	virtual void BeginPlay();
