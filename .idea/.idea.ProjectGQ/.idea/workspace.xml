@@ -5,17 +5,7 @@
     <projectFile>Intermediate/ProjectFiles/UE4.vcxproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0314b413-b164-4671-98d7-f76a2cf5399a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/UI/MainMenu/Level_MainMenu.umap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/UI/MainMenu/UI_MainMenu.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_NinjaPlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_NinjaPlayerCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_ProjectGQGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_ProjectGQGameMode.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MainMenu/Level_MainMenu.umap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MainMenu/UI_MainMenu.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/FirstPersonCharacterUI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/FirstPersonCharacterUI.uasset" afterDir="false" />
-    </list>
+    <list default="true" id="0314b413-b164-4671-98d7-f76a2cf5399a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,8 +27,8 @@
       <option value="$PROJECT_DIR$/Source/ProjectGQ/ProjectGQCharacter.h" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/Pickup.cpp" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.h" />
-      <option value="$PROJECT_DIR$/Source/ProjectGQ/CustomPlayerController.cpp" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.cpp" />
+      <option value="$PROJECT_DIR$/Source/ProjectGQ/CustomPlayerController.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1o6ZSvQaS00kYKYvuekHJiZcvaL" />
@@ -293,6 +283,7 @@
       <workItem from="1615149741389" duration="1089000" />
       <workItem from="1615236187182" duration="2420000" />
       <workItem from="1617385301409" duration="495000" />
+      <workItem from="1617544184404" duration="704000" />
     </task>
     <servers />
   </component>
