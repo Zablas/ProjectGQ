@@ -29,7 +29,7 @@ APickup::APickup()
 	CustomMesh->SetCollisionResponseToChannel(ECC_WorldDynamic, ECR_Overlap);
 	CustomMesh->SetCollisionResponseToChannel(ECC_Pawn, ECR_Overlap);
 
-	CollisionBox->OnComponentBeginOverlap.AddDynamic(this, &APickup::BeginOverlap);
+	//CollisionBox->OnComponentBeginOverlap.AddDynamic(this, &APickup::BeginOverlap);
 
 	RotationSpeed = 10.f;
 }
@@ -50,14 +50,14 @@ void APickup::Tick(float DeltaTime)
 	CustomMesh->SetWorldRotation(NewRotation);
 }
 
-void APickup::BeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp,
-	int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
-{
-	AWallWalkerCharacter* character = Cast<AWallWalkerCharacter>(OtherActor);
-	if (character)
-	{
-		character->AddHealth(10.f);
-		Destroy();
-	}
-}
+// void APickup::BeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp,
+// 	int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+// {
+// 	AWallWalkerCharacter* character = Cast<AWallWalkerCharacter>(OtherActor);
+// 	if (character)
+// 	{
+// 		character->AddHealth(10.f);
+// 		Destroy();
+// 	}
+// }
 
