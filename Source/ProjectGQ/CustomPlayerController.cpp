@@ -16,7 +16,7 @@ void ACustomPlayerController::SetupInputComponent()
 	InputComponent->BindAxis("Turn", this, &ACustomPlayerController::AddControllerYawInput);
 	InputComponent->BindAxis("LookUp", this, &ACustomPlayerController::AddControllerPitchInput);
 	
-	InputComponent->BindAction("Fire", IE_Pressed, this, &ACustomPlayerController::OnFire);
+	//InputComponent->BindAction("Fire", IE_Pressed, this, &ACustomPlayerController::OnFire);
 	InputComponent->BindAction("Jump", IE_Pressed, this, &ACustomPlayerController::Jump);
 	InputComponent->BindAction("Jump", IE_Released, this, &ACustomPlayerController::StopJumping);
 }
