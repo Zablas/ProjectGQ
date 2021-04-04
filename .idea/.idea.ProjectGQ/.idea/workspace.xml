@@ -5,7 +5,12 @@
     <projectFile>Intermediate/ProjectFiles/UE4.vcxproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0314b413-b164-4671-98d7-f76a2cf5399a" name="Default Changelist" comment="" />
+    <list default="true" id="0314b413-b164-4671-98d7-f76a2cf5399a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Content/Niagara/MapCenter/NS_Chaos.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Niagara/NS_Chaos.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Niagara/NS_Chaos.uasset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,13 +27,13 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Source/ProjectGQ/CustomPlayerController.h" />
-      <option value="$PROJECT_DIR$/Source/ProjectGQ/Pickup.h" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/ProjectGQCharacter.cpp" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/ProjectGQCharacter.h" />
+      <option value="$PROJECT_DIR$/Source/ProjectGQ/CustomPlayerController.cpp" />
+      <option value="$PROJECT_DIR$/Source/ProjectGQ/Pickup.h" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/Pickup.cpp" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.h" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.cpp" />
-      <option value="$PROJECT_DIR$/Source/ProjectGQ/CustomPlayerController.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1o6ZSvQaS00kYKYvuekHJiZcvaL" />
@@ -284,6 +289,7 @@
       <workItem from="1615236187182" duration="2420000" />
       <workItem from="1617385301409" duration="495000" />
       <workItem from="1617544184404" duration="704000" />
+      <workItem from="1617550111976" duration="1939000" />
     </task>
     <servers />
   </component>

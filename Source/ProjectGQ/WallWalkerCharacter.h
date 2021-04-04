@@ -23,7 +23,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	float MaxHealth;
 
-	void AddHealth(float health);
+	UFUNCTION(BlueprintCallable)
+	void AddHealth(float healthToAdd);
 
 	// Movement functions
 	void MoveForward(float Val);

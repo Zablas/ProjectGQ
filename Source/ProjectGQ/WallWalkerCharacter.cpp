@@ -12,14 +12,14 @@ AWallWalkerCharacter::AWallWalkerCharacter(const FObjectInitializer& ObjectIniti
 	Health = 70.f;	
 }
 
-void AWallWalkerCharacter::AddHealth(float health)
+void AWallWalkerCharacter::AddHealth(float healthToAdd)
 {
-	if (Health + health > MaxHealth)
+	if (Health + healthToAdd > MaxHealth)
 	{
 		Health = MaxHealth;
 		return;
 	}
-	Health += health;
+	Health += healthToAdd;
 }
 
 void AWallWalkerCharacter::MoveForward(float Val)
