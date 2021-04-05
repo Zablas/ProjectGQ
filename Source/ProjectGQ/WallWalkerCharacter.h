@@ -17,11 +17,14 @@ class PROJECTGQ_API AWallWalkerCharacter : public ANinjaCharacter
 public:
 	AWallWalkerCharacter(const FObjectInitializer& ObjectInitializer);
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Gameplay")
 	float Health;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Gameplay")
 	float MaxHealth;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Gameplay")
+	bool bReadyToBeTeleported;
 
 	UFUNCTION(BlueprintCallable)
 	void AddHealth(float healthToAdd);
