@@ -6,13 +6,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0314b413-b164-4671-98d7-f76a2cf5399a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/BP_NewPortal.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/ProjectGQ/BasePortal.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/ProjectGQ/BasePortal.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_Bullet.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_Bullet.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_NewBullet.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_NewPortal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_NewPortal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_NinjaPlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_NinjaPlayerCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_Portal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_Portal.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,7 +303,7 @@
       <workItem from="1617385301409" duration="495000" />
       <workItem from="1617544184404" duration="704000" />
       <workItem from="1617550111976" duration="1939000" />
-      <workItem from="1617624250220" duration="8200000" />
+      <workItem from="1617624250220" duration="8747000" />
     </task>
     <servers />
   </component>
