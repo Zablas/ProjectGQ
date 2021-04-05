@@ -6,10 +6,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0314b413-b164-4671-98d7-f76a2cf5399a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/Niagara/MapCenter/NS_Chaos.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_Bullet.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_Bullet.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_NewBullet.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_NewPortal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_NewPortal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_NinjaPlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_NinjaPlayerCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_Portal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_Portal.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Niagara/NS_Chaos.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Niagara/NS_Chaos.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +24,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/GameFramework/Character.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Private/PrimitiveComponentPhysics.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/Components/PrimitiveComponent.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Core/Public/Math/Vector.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Private/Character.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Private/Actor.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -32,8 +40,13 @@
       <option value="$PROJECT_DIR$/Source/ProjectGQ/CustomPlayerController.cpp" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/Pickup.h" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/Pickup.cpp" />
+      <option value="$PROJECT_DIR$/Source/ProjectGQ/ProjectGQ.Build.cs" />
+      <option value="$PROJECT_DIR$/Source/ProjectGQ/BaseProjectile.h" />
+      <option value="$PROJECT_DIR$/Source/ProjectGQ/BaseProjectile.cpp" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.h" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.cpp" />
+      <option value="$PROJECT_DIR$/Source/ProjectGQ/BasePortal.h" />
+      <option value="$PROJECT_DIR$/Source/ProjectGQ/BasePortal.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1o6ZSvQaS00kYKYvuekHJiZcvaL" />
@@ -290,6 +303,7 @@
       <workItem from="1617385301409" duration="495000" />
       <workItem from="1617544184404" duration="704000" />
       <workItem from="1617550111976" duration="1939000" />
+      <workItem from="1617624250220" duration="8747000" />
     </task>
     <servers />
   </component>
