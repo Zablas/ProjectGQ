@@ -52,7 +52,6 @@ void ABasePortal::SetupTeleportationResetTimer(AWallWalkerCharacter* character) 
 {
 	FTimerDelegate TimerDel = FTimerDelegate::CreateUObject(this, &ABasePortal::AllowCharacterTeleportation, character);
 	FTimerHandle TimerHandle;
-	//TimerDel.BindUFunction(this, FName("AllowCharacterTeleportation"), character);
 	GetWorld()->GetTimerManager().SetTimer(TimerHandle, TimerDel, TeleportationDelay, false);
 }
 
