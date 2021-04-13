@@ -33,11 +33,14 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Gameplay")
 	float TeleportationDelay;
 
+	UFUNCTION(BlueprintImplementableEvent)
+	void PlayTeleportSound(const FVector& location);
+	
 	UFUNCTION()
 	void AllowCharacterTeleportation(class AWallWalkerCharacter* character) const;
 
 	void SetupTeleportationResetTimer(AWallWalkerCharacter* character) const;
-
+	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

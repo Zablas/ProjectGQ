@@ -4,6 +4,7 @@
 #include "WallWalkerCharacter.h"
 
 #include "Kismet/KismetMathLibrary.h"
+#include "GameFramework/CharacterMovementComponent.h"
 
 AWallWalkerCharacter::AWallWalkerCharacter(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)

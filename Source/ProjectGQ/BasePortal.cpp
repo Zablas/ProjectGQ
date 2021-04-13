@@ -52,7 +52,6 @@ void ABasePortal::SetupTeleportationResetTimer(AWallWalkerCharacter* character) 
 {
 	FTimerDelegate TimerDel = FTimerDelegate::CreateUObject(this, &ABasePortal::AllowCharacterTeleportation, character);
 	FTimerHandle TimerHandle;
-	//TimerDel.BindUFunction(this, FName("AllowCharacterTeleportation"), character);
 	GetWorld()->GetTimerManager().SetTimer(TimerHandle, TimerDel, TeleportationDelay, false);
 }
 
@@ -64,6 +63,7 @@ void ABasePortal::EntryBeginOverlap(UPrimitiveComponent* OverlappedComponent, AA
 	{
 		character->bReadyToBeTeleported = false;
 		character->SetActorLocation(ExitCollisionBox->GetComponentLocation(), false, nullptr, ETeleportType::TeleportPhysics);
+		PlayTeleportSound(EntryCollisionBox->GetComponentLocation());
 		SetupTeleportationResetTimer(character);
 	}
 }
@@ -76,6 +76,7 @@ void ABasePortal::ExitBeginOverlap(UPrimitiveComponent* OverlappedComponent, AAc
 	{
 		character->bReadyToBeTeleported = false;
 		character->SetActorLocation(EntryCollisionBox->GetComponentLocation(), false, nullptr, ETeleportType::TeleportPhysics);
+		PlayTeleportSound(ExitCollisionBox->GetComponentLocation());
 		SetupTeleportationResetTimer(character);
 	}
 }
