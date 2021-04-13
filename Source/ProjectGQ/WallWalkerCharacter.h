@@ -29,6 +29,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void AddHealth(float healthToAdd);
 
+	UFUNCTION(BlueprintImplementableEvent)
+	void Die();
+
 	// Movement functions
 	void MoveForward(float Val);
 	void MoveRight(float Val);

@@ -6,13 +6,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0314b413-b164-4671-98d7-f76a2cf5399a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Content/UI/UI_DeathScreen.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_Bullet.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_Bullet.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_NewBullet.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_NewPortal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_NewPortal.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_NinjaPlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_NinjaPlayerCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_Portal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_Portal.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/UI_PauseMenu.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/UI_PauseMenu.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +43,10 @@
       <option value="$PROJECT_DIR$/Source/ProjectGQ/ProjectGQ.Build.cs" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/BaseProjectile.h" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/BaseProjectile.cpp" />
-      <option value="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.h" />
-      <option value="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.cpp" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/BasePortal.h" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/BasePortal.cpp" />
+      <option value="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.h" />
+      <option value="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1o6ZSvQaS00kYKYvuekHJiZcvaL" />
