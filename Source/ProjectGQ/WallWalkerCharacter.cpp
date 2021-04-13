@@ -21,6 +21,7 @@ void AWallWalkerCharacter::AddHealth(float healthToAdd)
 		return;
 	}
 	Health += healthToAdd;
+	if (Health <= 0) Die();
 }
 
 void AWallWalkerCharacter::MoveForward(float Val)
