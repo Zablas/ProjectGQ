@@ -54,6 +54,7 @@ void ABaseProjectile::BeginOverlap(UPrimitiveComponent* OverlappedComponent, AAc
 	if(character)
 	{
 		character->AddHealth(-20.f);
+		PlayHitSound();
 		bCanBeDestroyed = true;
 	}
 }
