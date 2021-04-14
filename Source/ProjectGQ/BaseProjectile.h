@@ -52,4 +52,7 @@ public:
 		UPrimitiveComponent* OtherComp,
 		FVector NormalImpulse,
 		const FHitResult& Hit);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void PlayHitSound();
 };
