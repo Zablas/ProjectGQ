@@ -26,6 +26,9 @@ public:
 
 	UPROPERTY(EditAnywhere, Category="Rotation")
 	float RotationSpeed;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Usage")
+	bool bIsActive;
 	
 protected:
 	// Called when the game starts or when spawned
@@ -34,12 +37,4 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
-	// UFUNCTION( )
- //    virtual void BeginOverlap(UPrimitiveComponent* OverlappedComponent, 
- //                      AActor* OtherActor, 
- //                      UPrimitiveComponent* OtherComp, 
- //                      int32 OtherBodyIndex, 
- //                      bool bFromSweep, 
- //                      const FHitResult &SweepResult);
 };
