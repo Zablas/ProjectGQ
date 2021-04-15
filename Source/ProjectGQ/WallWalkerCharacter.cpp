@@ -10,7 +10,7 @@ AWallWalkerCharacter::AWallWalkerCharacter(const FObjectInitializer& ObjectIniti
 	: Super(ObjectInitializer)
 {
 	MaxHealth = 100.f;
-	Health = 70.f;
+	Health = 100.f;
 	bReadyToBeTeleported = true;
 }
 
