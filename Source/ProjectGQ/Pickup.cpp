@@ -44,7 +44,7 @@ void APickup::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	const FRotator CurrentRotation = CustomMesh->GetComponentRotation();
+	const FRotator CurrentRotation = CustomMesh->GetRelativeRotation();
 	FRotator NewRotation = FMath::RInterpTo(CurrentRotation, CurrentRotation + FRotator(0.f, 10.f, 0.f), DeltaTime, RotationSpeed);
-	CustomMesh->SetWorldRotation(NewRotation);
+	CustomMesh->SetRelativeRotation(NewRotation);
 }
