@@ -5,10 +5,12 @@
 
 #include "Kismet/KismetMathLibrary.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Net/UnrealNetwork.h"
 
 AWallWalkerCharacter::AWallWalkerCharacter(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)
 {
+	bReplicates = true;
 	MaxHealth = 100.f;
 	Health = 100.f;
 	bReadyToBeTeleported = true;
@@ -22,7 +24,16 @@ void AWallWalkerCharacter::AddHealth(float healthToAdd)
 		return;
 	}
 	Health += healthToAdd;
+	UE_LOG(LogTemp, Warning, TEXT("GYVYBES: %d"), Health);
 	if (Health <= 0) Die();
+}
+
+void AWallWalkerCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+	DOREPLIFETIME(AWallWalkerCharacter, Health);
+	DOREPLIFETIME(AWallWalkerCharacter, MaxHealth);
+	DOREPLIFETIME(AWallWalkerCharacter, bReadyToBeTeleported);
 }
 
 void AWallWalkerCharacter::MoveForward(float Val)
