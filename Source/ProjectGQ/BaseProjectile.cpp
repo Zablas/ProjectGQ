@@ -6,6 +6,7 @@
 #include "Components/BoxComponent.h"
 #include "NiagaraComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
+#include "Net/UnrealNetwork.h"
 
 // Sets default values
 ABaseProjectile::ABaseProjectile()
@@ -38,6 +39,16 @@ ABaseProjectile::ABaseProjectile()
 void ABaseProjectile::BeginPlay()
 {
 	Super::BeginPlay();
+}
+
+void ABaseProjectile::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+	DOREPLIFETIME(ABaseProjectile, bIsInitialized);
+	DOREPLIFETIME(ABaseProjectile, bCanBeDestroyed);
+	DOREPLIFETIME(ABaseProjectile, CollisionBox);
+	DOREPLIFETIME(ABaseProjectile, NiagaraParticleSystem);
+	DOREPLIFETIME(ABaseProjectile, ProjectileMovement);
 }
 
 // Called every frame
