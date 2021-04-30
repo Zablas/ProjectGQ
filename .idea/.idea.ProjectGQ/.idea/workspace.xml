@@ -9,8 +9,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_Bullet.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_Bullet.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_NinjaPlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_NinjaPlayerCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGQ/BaseProjectile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGQ/BaseProjectile.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGQ/BaseProjectile.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGQ/BaseProjectile.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,6 +306,7 @@
       <workItem from="1619716540041" duration="60000" />
       <workItem from="1619716690179" duration="5227000" />
       <workItem from="1619733955700" duration="1217000" />
+      <workItem from="1619795773932" duration="1424000" />
     </task>
     <servers />
   </component>
