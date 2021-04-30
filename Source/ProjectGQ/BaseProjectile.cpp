@@ -55,7 +55,6 @@ void ABaseProjectile::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutL
 void ABaseProjectile::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	if(bCanBeDestroyed && bIsInitialized) Destroy();
 }
 
 void ABaseProjectile::BeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
@@ -66,7 +65,7 @@ void ABaseProjectile::BeginOverlap(UPrimitiveComponent* OverlappedComponent, AAc
 	{
 		character->AddHealth(-20.f);
 		PlayHitSound();
-		bCanBeDestroyed = true;
+		if(bIsInitialized) Destroy();
 	}
 }
 
@@ -74,7 +73,7 @@ void ABaseProjectile::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActo
         FVector NormalImpulse, const FHitResult& Hit)
 {
 	ABaseProjectile* projectile = Cast<ABaseProjectile>(OtherActor);
-	if(!projectile) bCanBeDestroyed = true;
+	if(bIsInitialized) Destroy();
 }
 
 
