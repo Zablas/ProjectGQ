@@ -69,10 +69,14 @@ void AWallWalkerCharacter::CustomStopJumping()
 
 void AWallWalkerCharacter::CustomAddControllerYawInput(float Val)
 {
-	AddControllerYawInput(Val);
+	if(Val != 0)
+	{
+		AddControllerYawInput(Val);
+        YawEvent();
+	}
 }
 
 void AWallWalkerCharacter::CustomAddControllerPitchInput(float Val)
 {
-	AddControllerPitchInput(Val);
+	if(Val != 0) AddControllerPitchInput(Val);
 }

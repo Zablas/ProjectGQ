@@ -39,4 +39,7 @@ public:
 	void CustomStopJumping();
 	void CustomAddControllerYawInput(float Val);
 	void CustomAddControllerPitchInput(float Val);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void YawEvent();
 };
