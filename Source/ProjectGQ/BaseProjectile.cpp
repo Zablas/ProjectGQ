@@ -62,7 +62,7 @@ void ABaseProjectile::BeginOverlap(UPrimitiveComponent* OverlappedComponent, AAc
 	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	AWallWalkerCharacter* character = Cast<AWallWalkerCharacter>(OtherActor);
-	if(character && character != GetOwner())
+	if(character && character != GetOwner() && character->Health > 0)
 	{
 		character->AddHealth(-20.f);
 		PlayHitSound();
