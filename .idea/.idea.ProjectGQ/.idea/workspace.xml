@@ -5,13 +5,7 @@
     <projectFile>Intermediate/ProjectFiles/UE4.vcxproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0314b413-b164-4671-98d7-f76a2cf5399a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_CustomPlayerController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_CustomPlayerController.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_NinjaPlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_NinjaPlayerCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_ProjectGQGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_ProjectGQGameMode.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" afterDir="false" />
-    </list>
+    <list default="true" id="0314b413-b164-4671-98d7-f76a2cf5399a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,9 +36,9 @@
       <option value="$PROJECT_DIR$/Source/ProjectGQ/Pickup.h" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/Pickup.cpp" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/BaseProjectile.h" />
-      <option value="$PROJECT_DIR$/Source/ProjectGQ/BaseProjectile.cpp" />
-      <option value="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.h" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.cpp" />
+      <option value="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.h" />
+      <option value="$PROJECT_DIR$/Source/ProjectGQ/BaseProjectile.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1o6ZSvQaS00kYKYvuekHJiZcvaL" />
@@ -310,7 +304,7 @@
       <workItem from="1619733955700" duration="1217000" />
       <workItem from="1619795773932" duration="1424000" />
       <workItem from="1619812694939" duration="515000" />
-      <workItem from="1619950551904" duration="2388000" />
+      <workItem from="1619950551904" duration="2948000" />
     </task>
     <servers />
   </component>
