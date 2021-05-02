@@ -15,6 +15,7 @@ ABaseProjectile::ABaseProjectile()
 	PrimaryActorTick.bCanEverTick = true;
 	bCanBeDestroyed = false;
 	bIsInitialized = false;
+	Damage = 20.f;
 	
 	CollisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("CollisionZone"));
 	NiagaraParticleSystem = CreateDefaultSubobject<UNiagaraComponent>(TEXT("ParticleSystem"));
@@ -49,6 +50,7 @@ void ABaseProjectile::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutL
 	DOREPLIFETIME(ABaseProjectile, CollisionBox);
 	DOREPLIFETIME(ABaseProjectile, NiagaraParticleSystem);
 	DOREPLIFETIME(ABaseProjectile, ProjectileMovement);
+	DOREPLIFETIME(ABaseProjectile, Damage);
 }
 
 // Called every frame
@@ -64,7 +66,7 @@ void ABaseProjectile::BeginOverlap(UPrimitiveComponent* OverlappedComponent, AAc
 	AWallWalkerCharacter* character = Cast<AWallWalkerCharacter>(OtherActor);
 	if(character && character != GetOwner() && character->Health > 0)
 	{
-		character->AddHealth(-20.f);
+		character->AddHealth(-Damage);
 		PlayHitSound();
 		bCanBeDestroyed = true;
 	}

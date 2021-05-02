@@ -21,6 +21,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Replicated, Category="Lifespan")
 	bool bCanBeDestroyed;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Replicated, Category="Combat")
+	float Damage;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Replicated, Category="Collision")
 	class UBoxComponent* CollisionBox;
 
