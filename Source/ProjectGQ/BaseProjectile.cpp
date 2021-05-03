@@ -67,7 +67,7 @@ void ABaseProjectile::BeginOverlap(UPrimitiveComponent* OverlappedComponent, AAc
 	if(character && character != GetOwner() && character->Health > 0)
 	{
 		character->AddHealth(-Damage);
-		PlayHitSound();
+		PostHit(character);
 		bCanBeDestroyed = true;
 	}
 }
