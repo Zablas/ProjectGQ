@@ -17,13 +17,13 @@ class PROJECTGQ_API AWallWalkerCharacter : public ANinjaCharacter
 public:
 	AWallWalkerCharacter(const FObjectInitializer& ObjectInitializer);
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Gameplay")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Replicated, Category="Gameplay")
 	float Health;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Gameplay")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Replicated, Category="Gameplay")
 	float MaxHealth;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Gameplay")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Replicated, Category="Gameplay")
 	bool bReadyToBeTeleported;
 
 	UFUNCTION(BlueprintCallable)
@@ -39,4 +39,7 @@ public:
 	void CustomStopJumping();
 	void CustomAddControllerYawInput(float Val);
 	void CustomAddControllerPitchInput(float Val);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void YawEvent();
 };

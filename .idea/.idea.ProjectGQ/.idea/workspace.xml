@@ -6,8 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0314b413-b164-4671-98d7-f76a2cf5399a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_NinjaPlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_NinjaPlayerCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_ProjectGQGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_ProjectGQGameMode.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,14 +20,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Core/Public/Math/Vector.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/GameFramework/Character.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Private/Character.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Private/PrimitiveComponentPhysics.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/Components/PrimitiveComponent.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Core/Public/Math/Vector.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Private/Character.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Private/Actor.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -36,12 +38,12 @@
       <option value="$PROJECT_DIR$/Source/ProjectGQ/ProjectGQ.Build.cs" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/BasePortal.h" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/BasePortal.cpp" />
-      <option value="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.h" />
-      <option value="$PROJECT_DIR$/Source/ProjectGQ/BaseProjectile.h" />
-      <option value="$PROJECT_DIR$/Source/ProjectGQ/BaseProjectile.cpp" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/Pickup.h" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/Pickup.cpp" />
+      <option value="$PROJECT_DIR$/Source/ProjectGQ/BaseProjectile.h" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.cpp" />
+      <option value="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.h" />
+      <option value="$PROJECT_DIR$/Source/ProjectGQ/BaseProjectile.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1o6ZSvQaS00kYKYvuekHJiZcvaL" />
@@ -301,7 +303,13 @@
       <workItem from="1617624250220" duration="8747000" />
       <workItem from="1618345866077" duration="1930000" />
       <workItem from="1618417619496" duration="1154000" />
-      <workItem from="1618518666203" duration="2120000" />
+      <workItem from="1618518666203" duration="2717000" />
+      <workItem from="1619716540041" duration="60000" />
+      <workItem from="1619716690179" duration="5227000" />
+      <workItem from="1619733955700" duration="1217000" />
+      <workItem from="1619795773932" duration="1424000" />
+      <workItem from="1619812694939" duration="515000" />
+      <workItem from="1619950551904" duration="2948000" />
     </task>
     <servers />
   </component>

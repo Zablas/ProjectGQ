@@ -15,19 +15,22 @@ public:
 	// Sets default values for this actor's properties
 	ABaseProjectile();
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Lifespan")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Replicated, Category="Lifespan")
 	bool bIsInitialized;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Lifespan")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Replicated, Category="Lifespan")
 	bool bCanBeDestroyed;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Collision")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Replicated, Category="Combat")
+	float Damage;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Replicated, Category="Collision")
 	class UBoxComponent* CollisionBox;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Particles")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Replicated, Category="Particles")
 	class UNiagaraComponent* NiagaraParticleSystem;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Movement")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Replicated, Category="Movement")
 	class UProjectileMovementComponent* ProjectileMovement;
 
 protected:

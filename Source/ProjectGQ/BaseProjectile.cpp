@@ -6,6 +6,7 @@
 #include "Components/BoxComponent.h"
 #include "NiagaraComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
+#include "Net/UnrealNetwork.h"
 
 // Sets default values
 ABaseProjectile::ABaseProjectile()
@@ -14,6 +15,7 @@ ABaseProjectile::ABaseProjectile()
 	PrimaryActorTick.bCanEverTick = true;
 	bCanBeDestroyed = false;
 	bIsInitialized = false;
+	Damage = 20.f;
 	
 	CollisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("CollisionZone"));
 	NiagaraParticleSystem = CreateDefaultSubobject<UNiagaraComponent>(TEXT("ParticleSystem"));
@@ -40,6 +42,17 @@ void ABaseProjectile::BeginPlay()
 	Super::BeginPlay();
 }
 
+void ABaseProjectile::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+	DOREPLIFETIME(ABaseProjectile, bIsInitialized);
+	DOREPLIFETIME(ABaseProjectile, bCanBeDestroyed);
+	DOREPLIFETIME(ABaseProjectile, CollisionBox);
+	DOREPLIFETIME(ABaseProjectile, NiagaraParticleSystem);
+	DOREPLIFETIME(ABaseProjectile, ProjectileMovement);
+	DOREPLIFETIME(ABaseProjectile, Damage);
+}
+
 // Called every frame
 void ABaseProjectile::Tick(float DeltaTime)
 {
@@ -51,9 +64,9 @@ void ABaseProjectile::BeginOverlap(UPrimitiveComponent* OverlappedComponent, AAc
 	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	AWallWalkerCharacter* character = Cast<AWallWalkerCharacter>(OtherActor);
-	if(character)
+	if(character && character != GetOwner() && character->Health > 0)
 	{
-		character->AddHealth(-20.f);
+		character->AddHealth(-Damage);
 		PlayHitSound();
 		bCanBeDestroyed = true;
 	}
