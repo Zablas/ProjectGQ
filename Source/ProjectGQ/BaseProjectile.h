@@ -3,6 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
+
+#include "WallWalkerCharacter.h"
 #include "GameFramework/Actor.h"
 #include "BaseProjectile.generated.h"
 
@@ -57,5 +59,5 @@ public:
 		const FHitResult& Hit);
 
 	UFUNCTION(BlueprintImplementableEvent)
-	void PlayHitSound();
+	void PostHit(AWallWalkerCharacter* Character);
 };

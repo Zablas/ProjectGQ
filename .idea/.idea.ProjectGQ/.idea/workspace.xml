@@ -6,10 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0314b413-b164-4671-98d7-f76a2cf5399a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_NinjaPlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_NinjaPlayerCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_ProjectGQGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_ProjectGQGameMode.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/UI/Mouse/cursor.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +37,9 @@
       <option value="$PROJECT_DIR$/Source/ProjectGQ/BasePortal.cpp" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/Pickup.h" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/Pickup.cpp" />
-      <option value="$PROJECT_DIR$/Source/ProjectGQ/BaseProjectile.h" />
-      <option value="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.cpp" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.h" />
+      <option value="$PROJECT_DIR$/Source/ProjectGQ/WallWalkerCharacter.cpp" />
+      <option value="$PROJECT_DIR$/Source/ProjectGQ/BaseProjectile.h" />
       <option value="$PROJECT_DIR$/Source/ProjectGQ/BaseProjectile.cpp" />
     </changedPaths>
   </component>
@@ -310,6 +307,8 @@
       <workItem from="1619795773932" duration="1424000" />
       <workItem from="1619812694939" duration="515000" />
       <workItem from="1619950551904" duration="2948000" />
+      <workItem from="1620080994948" duration="1224000" />
+      <workItem from="1620141719028" duration="1214000" />
     </task>
     <servers />
   </component>

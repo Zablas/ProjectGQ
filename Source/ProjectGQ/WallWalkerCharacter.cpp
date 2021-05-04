@@ -24,7 +24,6 @@ void AWallWalkerCharacter::AddHealth(float healthToAdd)
 		return;
 	}
 	Health += healthToAdd;
-	UE_LOG(LogTemp, Warning, TEXT("GYVYBES: %d"), Health);
 	if (Health <= 0) Die();
 }
 
