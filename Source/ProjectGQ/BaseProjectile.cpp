@@ -75,8 +75,9 @@ void ABaseProjectile::BeginOverlap(UPrimitiveComponent* OverlappedComponent, AAc
 void ABaseProjectile::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp,
         FVector NormalImpulse, const FHitResult& Hit)
 {
-	ABaseProjectile* projectile = Cast<ABaseProjectile>(OtherActor);
-	if(!projectile) bCanBeDestroyed = true;
+	//ABaseProjectile* projectile = Cast<ABaseProjectile>(OtherActor);
+	//if(!projectile) bCanBeDestroyed = true;
+	Portal(OtherActor);
 }
 
 

@@ -60,4 +60,7 @@ public:
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void PostHit(AWallWalkerCharacter* Character);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void Portal(AActor* Actor);
 };
