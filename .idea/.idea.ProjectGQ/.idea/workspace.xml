@@ -5,24 +5,7 @@
     <projectFile>Intermediate/ProjectFiles/UE4.vcxproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0314b413-b164-4671-98d7-f76a2cf5399a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/BP_BluePortal.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/BP_Bullet_Portal.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/BP_OrangePortal.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Niagara/Portal/NE_Portal_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Niagara/Portal/NE_Portal_Blue.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Niagara/Portal/NE_Portal_Orange.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Niagara/Portal/NS_Portal_Blue.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Niagara/Portal/NS_Portal_Orange.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectGQ/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_NinjaPlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_NinjaPlayerCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Niagara/Bullet/NE_BulletYellow.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Niagara/Bullet/NE_BulletYellow.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Niagara/Bullet/NS_BulletYellow.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Niagara/Bullet/NS_BulletYellow.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGQ/BaseProjectile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGQ/BaseProjectile.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGQ/BaseProjectile.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGQ/BaseProjectile.h" afterDir="false" />
-    </list>
+    <list default="true" id="0314b413-b164-4671-98d7-f76a2cf5399a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -324,7 +307,7 @@
       <workItem from="1619950551904" duration="2948000" />
       <workItem from="1620080994948" duration="1224000" />
       <workItem from="1620141719028" duration="1214000" />
-      <workItem from="1620643081667" duration="1459000" />
+      <workItem from="1620643081667" duration="2073000" />
     </task>
     <servers />
   </component>
